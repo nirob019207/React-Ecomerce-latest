@@ -7,7 +7,7 @@ export const Navbar = () => {
         <div>
             <div className='flex justify-center items-center h-24 gap-4'>
                 <Link to="/login" className='bg-violet-400 text-white shadow-lg p-2 rounded-md'>Login</Link>
-                <Link to="/login" className='bg-violet-400 text-white shadow-lg p-2 rounded-md'>Register</Link>
+                <Link to="/register" className='bg-violet-400 text-white shadow-lg p-2 rounded-md'>Register</Link>
 
             </div>
         </div>

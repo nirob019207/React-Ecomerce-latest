@@ -1,9 +1,6 @@
-// // pages/auth/Register.js
-import React, { useState } from "react";
+import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import fetchWrapper from "@/util/fetchWrapper";
-import Title from "@/components/title/Title";
-import image from "./../../assets/psm-home.jpg"; // Optional: Use the same image as Login or a different one
+
 
 function Register() {
   const navigate = useNavigate();
@@ -62,17 +59,13 @@ function Register() {
       <div className="bg-white rounded-lg shadow-lg overflow-hidden max-w-4xl w-full flex flex-col md:flex-row">
         {/* Image Section (Optional) */}
         <div className="hidden md:block md:w-1/2">
-          <img
-            src={image}
-            alt="Register Illustration"
-            className="object-cover h-full w-full"
-          />
+         
         </div>
 
         {/* Form Section */}
         <div className="w-full md:w-1/2 p-8 flex flex-col justify-center">
           <div className="mb-6 text-center">
-            <Title>Branch Register</Title>
+           
           </div>
           <form className="space-y-6" onSubmit={handleSubmit}>
             {/* Form Inputs */}
